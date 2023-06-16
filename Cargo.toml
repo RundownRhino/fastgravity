@@ -1,0 +1,17 @@
+[package]
+name = "fastgravity"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "fastgravity"
+crate-type = ["cdylib"]
+
+[dependencies]
+numpy = "0.18.0"
+pyo3 = "0.18.3"
+
+# This isn't enough to get backtraces anyway.
+# [profile.release]
+# debug = 1
