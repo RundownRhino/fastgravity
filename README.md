@@ -2,7 +2,7 @@
 A simple [Barnes-Hut simulation](https://en.wikipedia.org/wiki/Barnes%E2%80%93Hut_simulation) of n-body gravity, written in Rust and exposed as a Python library via `pyo3`. Uses a multipole expansion up to the quadrupole moment. Supports evaluation of both potentials and accelerations.
 
 ## Installation
-Download the right wheel from Releases for your platform (for example, if you have Python 3.11 on 64-bit Windows, you want the cp**310**-none-**win**_amd**64** one) and install it with `pip install path_to_the_wheel.whl`. Alternatively, see [Building](#building) on building a wheel from source. 
+Download the right wheel from Releases for your platform (for example, if you have Python 3.11 on 64-bit Windows, you want the cp**311**-none-**win**_amd**64** one) and install it with `pip install path_to_the_wheel.whl`. Alternatively, see [Building](#building) on building a wheel from source. 
 
 ## Building
 Compile with `maturin build --release`, then install the resulting wheel via `pip install`.
